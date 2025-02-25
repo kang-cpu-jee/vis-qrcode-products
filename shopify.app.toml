@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "34f2d5f86303c5ee18cd0456ce492dbc"
-application_url = "https://example.com/"
+application_url = "https://pichunter-lifetime-shirt-journalist.trycloudflare.com"
 embedded = true
 name = "vis-qrcode-products"
 handle = "vis-qrcode-products"
@@ -26,7 +26,11 @@ api_version = "2025-01"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://pichunter-lifetime-shirt-journalist.trycloudflare.com/auth/callback",
+  "https://pichunter-lifetime-shirt-journalist.trycloudflare.com/auth/shopify/callback",
+  "https://pichunter-lifetime-shirt-journalist.trycloudflare.com/api/auth/callback"
+]
 
 [pos]
 embedded = false
