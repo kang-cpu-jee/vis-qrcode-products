@@ -32,5 +32,6 @@ redirect_urls = [
   "https://vis-qrcode-products.onrender.com/api/auth/callback"
 ]
 
+
 [pos]
 embedded = false
